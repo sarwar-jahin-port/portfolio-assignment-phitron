@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SARWAR PORTFOLIO</title>
+    <!-- Bootstrap 5 link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- flaticon cdn link -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
+</head>
+
+<body>
+    <header>
+        <!-- navbar -->
+        <nav class="container navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" style="max-width: 50px;"><img class="img-fluid" src="images/logo.png"
+                        alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="images/resume.pdf" download class="nav-link">
+                                Resume
+                                <i class="fi fi-br-download"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- hero section -->
+        <div class="container d-flex flex-column-reverse flex-lg-row justify-content-between align-items-center gap-5">
+            <div class="hero-content d-flex flex-column gap-3">
+                <div class="intro">
+                    <h1>HI!</h1>
+                    <h1>I'M SARWAR</h1>
+                </div>
+                <p class="title fs-3">Web Developer | React Developer | Programmer</p>
+                <p class="description fs-5">I am an enthusiastic JavaScript developer with knowing some framework for
+                    the
+                    frontend and the backend. I know Basic PHP and MySQL but basically a MERN developer.</p>
+                <div class="links d-flex align-items-center gap-4">
+                    <i class="fi fi-brands-github fs-3"></i>
+                    <i class="fi fi-brands-linkedin fs-3"></i>
+                    <i class="fi fi-brands-youtube fs-3"></i>
+                    <a href="images/resume.pdf" download class="text-dark text-decoration-none">
+                        Resume
+                        <i class="fi fi-br-download"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image style='max-width: 300px;'">
+                <img class="img-fluid" src="./images/profile.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <!-- portfolio -->
+        <h2 class="text-center">Portfolio</h2>
+        <div class="projects mt-5">
+            <!-- Project Label Printer -->
+            <div class="project row">
+                <div id="carouselExampleAutoplaying" class="carousel slide col-12 col-lg-6" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/label_printer.PNG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/label_printer.PNG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/label_printer.PNG" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                <div class="project-details col-12 col-lg-6 mt-5 mt-lg-0 d-flex flex-column gap-lg-3">
+                    <div class="project-details-header d-flex gap-2 text-success">
+                        <h3>Label Printer</h3>
+                        <a class="text-decoration-none text-success" href="https://github.com/sarwar-jahin-port/label-printer"><i class="fi fi-brands-github fs-3"></i></a>
+                    </div>
+                    <p class="fs-5">The Label Printer is a user-friendly application designed to generate and format labels based on
+                        user-defined quantities. It automatically adjusts the layout to fit A4 or A5 paper sizes for
+                        seamless printing. This tool simplifies label creation and printing, making it efficient and
+                        hassle-free.</p>
+                    <ul class="fs-5">
+                        <li><span>Customizable Quantities:</span> Users can select the desired quantity for each label.
+                        </li>
+                        <li><span>Auto Layout Adjustment:</span> Automatically formats labels for A4 or A5 paper sizes.
+                        </li>
+                        <li><span>One-Click Printing:</span> Easy printing with a single click.</li>
+                    </ul>
+                    <div class="stacks d-flex gap-lg-4">
+                        <button class="stack">Reactjs</button>
+                        <button class="stack">Nodejs</button>
+                        <button class="stack">MongoDB</button>
+                        <button class="stack">Tailwind</button>
+                        <button class="stack">Express.js</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Inventory Management -->
+            <div class="project row mt-5">
+                <div id="carouselExampleAutoplaying" class="carousel slide col-12 col-lg-6" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/inventory.PNG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/inventory1.PNG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/inventory.PNG" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                <div class="project-details col-12 col-lg-6 mt-5 mt-lg-0 d-flex flex-column">
+                    <div class="project-details-header d-flex gap-2 text-success">
+                        <h3>Inventory Management</h3>
+                        <a class="text-decoration-none text-success" href="https://github.com/sarwar-jahin-port/inventory-management-client"><i class="fi fi-brands-github fs-3"></i></a>
+                    </div>
+                    <p class="fs-5">Inventory Management is an application that allows users to efficiently manage product stocks across multiple stores. It also provides functionality to track sales reports and filter products based on different regions. This tool streamlines inventory tracking, making it easy to monitor stock levels, sales performance, and regional product distribution.</p>
+                    <ul class="fs-5">
+                        <li><span>Multi-Store Management:</span> Manage product stocks across various stores.
+                        </li>
+                        <li><span>Sales Report Tracking:</span> Generate and view sales reports to monitor performance.
+                        </li>
+                        <li><span>Region-Based Filters:</span> Filter products based on different regional preferences.</li>
+                    </ul>
+                    <div class="stacks d-flex gap-lg-4">
+                        <button class="stack">Reactjs</button>
+                        <button class="stack">Nodejs</button>
+                        <button class="stack">MongoDB</button>
+                        <button class="stack">Tailwind</button>
+                        <button class="stack">Express.js</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- More -->
+        <div class="more d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+            <div class="more-left d-flex flex-column gap-5">
+                <h3>Expertise:</h3>
+                <div class="row gap-2">
+                    <div class="btn btn-secondary col-3">React.js</div>
+                    <div class="btn btn-secondary col-3">JavaScript</div>
+                    <div class="btn btn-secondary col-3">node.js</div>
+                    <div class="btn btn-secondary col-3">Firebase</div>
+                    <div class="btn btn-secondary col-3">Express.js</div>
+                    <div class="btn btn-secondary col-3">HTML</div>
+                    <div class="btn btn-secondary col-3">Bootstrap</div>
+                    <div class="btn btn-secondary col-3">MongoDB</div>
+                </div>
+                <h3>Comfortable:</h3>
+                <div class="row gap-2">
+                    <div class="btn btn-secondary col-3">SQL</div>
+                    <div class="btn btn-secondary col-3">Redux</div>
+                    <div class="btn btn-secondary col-3">Socket.io</div>
+                    <div class="btn btn-secondary col-3">AWS</div>
+                    <div class="btn btn-secondary col-3">Docker</div>
+                    <div class="btn btn-secondary col-3">TypeScript</div>
+                    <div class="btn btn-secondary col-3">Nextjs</div>
+                </div>
+                <h3>Familiar:</h3>
+                <div class="row gap-2">
+                    <div class="btn btn-secondary col-3">C++</div>
+                    <div class="btn btn-secondary col-3">python</div>
+                    <div class="btn btn-secondary col-3">Spring Boot</div>
+                    <div class="btn btn-secondary col-3">Networking</div>
+                </div>
+                <h3>Tools:</h3>
+                <div class="row gap-2">
+                    <div class="btn btn-secondary col-3">VS CODE</div>
+                    <div class="btn btn-secondary col-3">JIRA</div>
+                    <div class="btn btn-secondary col-3">Trello</div>
+                    <div class="btn btn-secondary col-3">Git</div>
+                </div>
+            </div>
+            <div class="more-right text-center">
+                <h3 class="text-success fs-1">MY EDUCATION</h3>
+                <p class="m-0 fs-3">B.Sc in Software Engineering, </p>
+                <p class="m-0 fs-4">International Islamic University, Chittagong</p>
+            </div>
+        </div>
+        <!-- Contact -->
+        <div class="container my-5">
+            <h2 class="text-center">Contact with Me</h2>
+            <form class="border mx-auto d-flex flex-column p-4 gap-2" style="max-width: 400px;">
+                <input type="text" name="name" id="name" placeholder="Your Name">
+                <input type="email" name="email" id="email" placeholder="Your Email">
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                <button type="submit" class="btn btn-success">Send</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="text-center">
+        <hr>
+        <p>Copyright © 2024 | sarwar jahin</p>
+        <p>chittagong, bangladesh</p>
+        <div class="social-links d-flex justify-content-center gap-2">
+            <i class="fi fi-brands-github fs-3"></i>
+            <i class="fi fi-brands-linkedin fs-3"></i>
+            <i class="fi fi-brands-youtube fs-3"></i>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
